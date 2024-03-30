@@ -6,6 +6,8 @@ body {
     background-color: #fafafa;
     color: #333;
     background-image: url('../imagens/computer-416569_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
