@@ -18,15 +18,13 @@ body {
     padding: 1rem;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    
+    border-radius: 8px;    
 }
 
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .conteudo-esquerda, .conteudo-direita {
