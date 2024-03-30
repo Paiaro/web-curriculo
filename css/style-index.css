@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -26,18 +27,13 @@ body {
     
 }
 
-.main-left, .main-right {
+.conteudo-esquerda, .conteudo-direita {
     flex: 1;
     /* tamanho minimo para conteudo */
     min-width: 290px; 
 }
-
-.main-right {
-    margin-left: 20px;
-}
-
 h1, h2 {
-    color: #0056b3;
+    color: #0C0C0C;
     /* tamanho da fonte responsiva */
     font-size: calc(1.4rem + 0.5vw); 
 }
@@ -73,9 +69,15 @@ li {
 
 .img-container img {
     max-width: 100%;
+
     height:max-content;
+
     border-radius: 50%;
-    max-width: 130px; /* Limiting maximum width */
+
+    /* limitando a largura maxima */
+
+    max-width: 130px;
+
    margin-right: 120px;
 }
 
@@ -85,8 +87,11 @@ li {
         padding: 1rem;
     }
 
-    .main-right {
+    .conteudo-direita {
         margin-left: 0;
         margin-top: 20px;
     }
+}
+.conteudo-direita {
+    margin-left: 20px;
 }
