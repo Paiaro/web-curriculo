@@ -41,7 +41,7 @@ h1, h2 {
     margin-left: 0.4rem;
 }
 h1{
-    margin-top: -0.47rem;
+    text-align: center;
 }
 
 p, li {
@@ -50,6 +50,10 @@ p, li {
     margin-bottom: 0.75rem;
     margin-left: 0.4rem;
 }
+/* pegando o primeiro paragrafo do tipo para modificação */
+/* p:first-of-type{
+    text-align: center;
+} */
 
 .bold {
     font-weight: 600;
@@ -57,6 +61,7 @@ p, li {
 
 .italic {
     font-style: italic;
+    text-align: center;
 }
 
 ul {
@@ -70,17 +75,17 @@ li {
 }
 
 .img-container {
-    text-align: right;
-    margin-top: 5rem;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .img-container img {
     max-width: 100%;
     border-radius: 50%;
     /* limitando a largura maxima */
-   margin-right: 120px;
    height: 150px;
    width: 150px;
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -100,6 +105,7 @@ li {
 header{
     background-color: #434242;
     color: #fff;
+    border-radius: 8px;
 }
 h1{
     color: #fff;
