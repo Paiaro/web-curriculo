@@ -18,7 +18,7 @@ body {
     padding: 1rem;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
       
 }
 
@@ -38,12 +38,17 @@ h1, h2 {
     color: #0C0C0C;
     /* tamanho da fonte responsiva */
     font-size: calc(1.4rem + 0.5vw);
+    margin-left: 0.4rem;
+}
+h1{
+    margin-top: -0.47rem;
 }
 
 p, li {
     font-size: calc(0.9rem + 0.3vw);
     line-height: 1.6;
     margin-bottom: 0.75rem;
+    margin-left: 0.4rem;
 }
 
 .bold {
