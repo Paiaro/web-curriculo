@@ -97,6 +97,10 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.redes a{
+    color: #0C0C0C;
+    
+}
 
 @media screen and (max-width: 768px) {
     .container {
