@@ -57,7 +57,7 @@ p, li {
     font-weight: 600;
 }
 
-.italic {
+.italic, .whatsapp {
     font-style: italic;
     text-align: center;
 }
@@ -95,6 +95,7 @@ h1{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
